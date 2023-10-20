@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 
 def test_first():
-    driver = webdriver.Chrome("Downloads/chromedriver")
+    driver = webdriver.Chrome()           #("Downloads/chromedriver")previous code as like run but now not run for chromedriver.
     driver.maximize_window()
     driver.implicitly_wait(30)
     driver.set_page_load_timeout(50)
